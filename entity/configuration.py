@@ -49,6 +49,6 @@ class Configuration:
         self.__env = env
 
     @staticmethod
-    def sheets(): return ['Feuil3', 'Règles sur contrat', 'Caractéristiques-Attributs', 'catalogue PA',
-                          'Valeurs', 'catalogue CA', 'catalogue CT', 'catalogue SV', 'Package',
-                          'Catalogue PE', 'Catalogue PSE']
+    def sheets():
+        return ['Valeurs', 'Catalogue PA', 'Catalogue CA', 'Caractéristiques-Attributs', 'catalogue SV',
+                'Catalogue PSE', 'catalogue CT', 'Catalogue PE', 'Package']
