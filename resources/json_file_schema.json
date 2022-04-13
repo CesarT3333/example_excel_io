@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "Id_Adherent_Co_Etab": {
+      "type": "array",
+      "minItems": 1,
+      "error": "teste"
+    },
+    "exportOptions": {
+      "type": "object",
+      "properties": {
+        "Pa": {
+          "$ref": "#/$defs/exportOptions"
+        },
+        "Pe": {
+          "$ref": "#/$defs/exportOptions"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "Id_Adherent_Co_Etab"
+  ],
+  "$defs": {
+    "exportOptions": {
+      "type": "boolean"
+    }
+  }
+}
